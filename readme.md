@@ -29,7 +29,7 @@ a = (buy_value - sell_value) / (buy_value + sell_value)   ∈ [-1, 1]
 
 ### 模块一：基础数据体检 ✅
 
-用 `pandas` 完成原始数据读取与结构检查：字段类型、`date` 转换、按 `(order_book_id, date)` 排序、股票数 / 交易日数 / 日期范围统计、面板完整性与重复主键检查。
+使用 `pandas` 完成原始数据读取与结构检查：字段类型、`date` 转换、按 `(order_book_id, date)` 排序、股票数 / 交易日数 / 日期范围统计、面板完整性与重复主键检查。
 
 ### 模块二：NaN 统计 ✅
 
