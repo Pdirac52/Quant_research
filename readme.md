@@ -37,7 +37,7 @@ a = (buy_value - sell_value) / (buy_value + sell_value)   ∈ [-1, 1]
 
 ### 模块三：有效观测区间识别与 NaN 分类 ✅
 
-用 `.notna().any(axis=1)` 标记 `valid_obs`（三字段至少一个非 NaN 即视为当天有效），区分"区间外缺失"与"区间内缺失"两类 NaN，避免后续时序操作引入隐性误差。
+使用 `.notna().any(axis=1)` 标记 `valid_obs`（三字段至少一个非 NaN 即视为当天有效），区分"区间外缺失"与"区间内缺失"两类 NaN，避免后续时序操作引入隐性误差。
 
 ### 模块四：因子计算 ✅
 
